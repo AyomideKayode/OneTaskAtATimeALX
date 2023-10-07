@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc -S -masm=intel $CFILE
+
+#script that generates the assembly code of a C code, intel syntax.
+
